@@ -1,5 +1,5 @@
 package aula02;
-
+// objetivo da aula: criar caneta com seus atributos (variáveis) e metodos (funções)
 public class Aula02 {
     public static void main(String[] args) {
         Caneta c1 = new Caneta();
