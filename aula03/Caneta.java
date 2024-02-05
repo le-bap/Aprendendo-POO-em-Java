@@ -1,15 +1,18 @@
 package aula03;
 
 // public: acesso a todos
-// private: só quem pode mexer é a própria classe (por ex o atributo "tampaada", que consegue ser usado nos métodos tampar e destampar mas não pode ser definida em Aula03)
+// private: só quem pode mexer é a própria classe (por ex o atributo "tampada", que consegue ser usado nos métodos tampar e destampar mas não pode ser definida em Aula03)
+// protected: é possível ser definida em Aula03, assim como o public
 
 public class Caneta {
+    // atributos
     public String modelo;
     public String cor;
     private float ponta;
     protected int carga;
     private boolean tampada;
 
+    // métodos
     public void status(){
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Cor: " + this.cor);
